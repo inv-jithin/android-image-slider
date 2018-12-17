@@ -26,7 +26,7 @@ class PicassoImageLoader(
       if (errorResId > 0) {
         error(errorResId)
       }
-      fit()
+      fit().centerInside()
       into(imageView)
     }
   }
