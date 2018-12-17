@@ -290,7 +290,7 @@ class ImageSlider : ConstraintLayout {
     if (sliderAdapter.hasDescriptions) {
       startDescriptionEntranceAnimation()
       descriptionTextView.text = sliderAdapter.descriptions[viewPager.currentItem]
-      descriptionLayout.visibility = View.VISIBLE
+      descriptionLayout.visibility = View.GONE
     } else {
       descriptionLayout.visibility = View.GONE
     }
